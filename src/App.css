@@ -1,0 +1,292 @@
+* {
+  background-color: #f9fbff;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 25%;
+  position: relative;
+  margin-top: 10%;
+  height: auto;
+  box-shadow: 1px 2px 20px 4px #dfdfdf;
+  border-radius: 15px;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+  max-width: 70%;
+  font-size: 20px;
+  outline: none;
+  border-radius: 0.5vw;
+  border: none;
+  border-bottom: 1px solid #232629;
+  margin-bottom: 15px;
+}
+
+h1 {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  color: #232629d1;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: #232629d1;
+  outline: none;
+  background-color: #d0d0d1;
+  padding: 10px 15px;
+  border-radius: 1vw;
+  color: #373848;
+  cursor: pointer;
+}
+
+.register {
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: none;
+  font-size: 15px;
+  color: #2a94ff;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #8b8b8b;
+}
+
+.button:disabled {
+  color: #8b8b8b94;
+}
+
+hr {
+  width: 80%;
+}
+
+p {
+  color: #232629d1;
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.homePage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.homeh1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #232629d1;
+}
+
+.innerTitle {
+  color: transparent;
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, #021ffe, #33c1ff);
+  -webkit-background-clip: text;
+}
+
+.home {
+  width: 15%;
+  cursor: pointer;
+}
+
+.logout {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.header {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 3%;
+  font-size: 10px;
+}
+
+.contactPage {
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #232629d1;
+}
+
+.contactPage .inner-container {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-box {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  color: #232629d1;
+  background-color: rgb(255, 254, 254);
+  box-shadow: 0px 1px 8px 0px #d9d9d9;
+}
+
+.home-box {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 300px;
+  padding: 10px;
+  border-radius: 10%;
+  color: #232629d1;
+  background-color: rgb(255, 254, 254);
+  box-shadow: 0px 1px 8px 0px #d9d9d9;
+}
+
+.homeSVG {
+  width: 70%;
+}
+
+.aboutSVG{
+  width: 50%;
+}
+
+.home-box h2 {
+  text-align: center;
+  background-color: transparent;
+}
+
+.innerText {
+  color: #767676;
+  display: flex;
+  background-color: transparent;
+  text-align: center; 
+}
+
+.map-container {
+  width: 99vw;
+  height: 89vh;
+}
+
+.icon{
+  background-color: #DAD9F8;
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.icon .MuiSvgIcon-root {
+  color: #232629d1;
+  font-weight: 900;
+  background-color: transparent;
+  font-size: 2.0rem;
+}
+
+.footerh1{
+  width: 50vw;
+}
+
+@media screen and (max-width: 1440px) {
+  .contactPage {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #232629d1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .homePage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeSVG {
+    width: 50%;
+  }
+  .aboutSVG{
+    width: 50%;
+  }
+  .home {
+    width: 15%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .home-box {
+    width: 30vw;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .home-box {
+    width: 80vw;
+    padding: 15px;
+  }
+  .home {
+    width: 15%;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .home {
+    width: 15%;
+    font-size: 8px;
+  }
+}
