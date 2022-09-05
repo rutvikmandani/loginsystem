@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/loginsystem/static/css/main.cb337185.css",
+    "main.js": "/loginsystem/static/js/main.1492ebd2.js",
+    "static/js/787.ed3dab71.chunk.js": "/loginsystem/static/js/787.ed3dab71.chunk.js",
+    "static/media/Ciphernutz.svg": "/loginsystem/static/media/Ciphernutz.9967c1c89217f05b4743d0fa11eb2cd8.svg",
+    "index.html": "/loginsystem/index.html",
+    "main.cb337185.css.map": "/loginsystem/static/css/main.cb337185.css.map",
+    "main.1492ebd2.js.map": "/loginsystem/static/js/main.1492ebd2.js.map",
+    "787.ed3dab71.chunk.js.map": "/loginsystem/static/js/787.ed3dab71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb337185.css",
+    "static/js/main.1492ebd2.js"
+  ]
+}
